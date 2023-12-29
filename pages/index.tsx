@@ -1,12 +1,26 @@
-import Image from 'next/image'
 import { Inter } from 'next/font/google'
+import type { GetServerSideProps } from 'next';
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+import { useTranslation } from 'next-i18next';
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+  const { t } = useTranslation('pages/index');
+
   return (
     <div>
-      <h1>INI PAGE</h1>
+      <h1>{t('title')}</h1>
+      <p>{t('identity.work')}</p>
     </div>
   )
 }
+
+export const getServerSideProps : GetServerSideProps = async ({ locale }) => ({
+  props: {
+    ...(await serverSideTranslations(locale || 'id', [
+      'common',
+      'pages/index',
+    ])),
+  },
+});
