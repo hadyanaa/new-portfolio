@@ -12,8 +12,9 @@ export default function Home() {
   return (
     <>
       <Header />
-      <div>
-        <h1>{t('title')}</h1>
+      <div className="mt-8 flex flex-col items-center justify-center">
+        <img className="w-20 h-20 rounded-full" src="/image/hadyan.jpg" alt="Foto Hadyan" />
+        <h1 className="text-lg">{t('identity.name')}</h1>
         <p>{t('identity.work')}</p>
       </div>
     </>

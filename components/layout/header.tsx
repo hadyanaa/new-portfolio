@@ -1,7 +1,7 @@
 export default function Header(){
   return (
     <nav className="w-full">
-      <div className="flex justify-between items-center py-4 px-16 bg-white">
+      <div className="flex justify-between items-center py-4 px-16 bg-white shadow-md">
         <a href="#">Hadyan Abdul Aziz</a>
         <div className="flex">
           <ul className="flex flex-row gap-8">
