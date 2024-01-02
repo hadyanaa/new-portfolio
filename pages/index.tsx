@@ -4,17 +4,21 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
 import Header from '@/components/layout/header';
 import Image from 'next/image';
+import ProjectCard from '@/components/card';
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   const { t } = useTranslation('pages/index');
 
+  const myProjects: any = t('projects');
+  
+  console.log(myProjects);
   return (
     <>
       <Header />
       {/* jumbotron */}
-      <div className="mt-8 flex flex-col items-center justify-center">
+      <div className="h-screen flex flex-col items-center justify-center">
         <Image
           className="rounded-full"
           src={"/image/hadyan.jpg"}
@@ -26,7 +30,7 @@ export default function Home() {
         <p>{t('identity.work')}</p>
       </div>
       {/* about */}
-      <div className="mt-8 flex flex-col gap-4">
+      <div className="h-screen flex flex-col gap-4">
         <div className="flex items-center justify-center">
           <h2>About Me</h2>
         </div>
@@ -39,6 +43,12 @@ export default function Home() {
           </div>
         </div>
       </div>
+      {/* Projects */}
+      {/* <div className="h-screen">
+        {t('projects').map((projects, pi) => (
+          <ProjectCard key={`my-projects-${pi}`} {...projects} />
+        ))}
+      </div> */}
     </>
   )
 }

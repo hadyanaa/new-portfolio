@@ -3,5 +3,57 @@
    "identity": {
       "name": "Hadyan Abdul Aziz",
       "work": "Frontend Developer"
-   } 
+   },
+   "projects": [
+      {
+         "nama_project": "Fullstack Project - Glowthinc E-Commerce App",
+         "image_url": "",
+         "description": "Tugas kelompok final project superbootcamp sanbercode. Berikut link youtube untuk penjelasan projectnya."
+      },
+      {
+         "nama_project": "Fullstack Project - Sportyan E-Commerce App",
+         "image_url": "",
+         "description": "Tugas individu project bulan kedua superbootcamp sanbercode. Membuat aplikasi e-commerce yang diberi nama sportyan menggunakan reactjs dan expressjs."
+      },
+      {
+         "nama_project": "Frontend Project - Movie & Game App",
+         "image_url": "",
+         "description": ""
+      },
+      {
+         "nama_project": "CRUD React JS",
+         "image_url": "",
+         "description": ""
+      },
+      {
+         "nama_project": "Laravel Development",
+         "image_url": "",
+         "description": ""
+      },
+      {
+         "nama_project": "Website Portofolio",
+         "image_url": "",
+         "description": ""
+      },
+      {
+         "nama_project": "Prototype Aplikasi - Edinsha",
+         "image_url": "",
+         "description": ""
+      },
+      {
+         "nama_project": "UX Designer - MindRoom",
+         "image_url": "",
+         "description": ""
+      },
+      {
+         "nama_project": "Project Management - Peminjaman Ruangan Kampus dan Zoom STT NF",
+         "image_url": "",
+         "description": ""
+      },
+      {
+         "nama_project": "Managemen SDM Berbasis IT",
+         "image_url": "",
+         "description": ""
+      }
+   ]
 }
