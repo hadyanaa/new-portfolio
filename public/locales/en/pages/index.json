@@ -6,51 +6,61 @@
    },
    "projects": [
       {
+         "id": "1",
          "nama_project": "Fullstack Project - Glowthinc E-Commerce App",
          "image_url": "",
          "description": "Tugas kelompok final project superbootcamp sanbercode. Berikut link youtube untuk penjelasan projectnya."
       },
       {
+         "id": "2",
          "nama_project": "Fullstack Project - Sportyan E-Commerce App",
          "image_url": "",
          "description": "Tugas individu project bulan kedua superbootcamp sanbercode. Membuat aplikasi e-commerce yang diberi nama sportyan menggunakan reactjs dan expressjs."
       },
       {
+         "id": "3",
          "nama_project": "Frontend Project - Movie & Game App",
          "image_url": "",
          "description": ""
       },
       {
+         "id": "4",
          "nama_project": "CRUD React JS",
          "image_url": "",
          "description": ""
       },
       {
+         "id": "5",
          "nama_project": "Laravel Development",
          "image_url": "",
          "description": ""
       },
       {
+         "id": "6",
          "nama_project": "Website Portofolio",
          "image_url": "",
          "description": ""
       },
       {
+         "id": "7",
          "nama_project": "Prototype Aplikasi - Edinsha",
          "image_url": "",
          "description": ""
       },
       {
+         "id": "8",
          "nama_project": "UX Designer - MindRoom",
          "image_url": "",
          "description": ""
       },
       {
+         "id": "9",
          "nama_project": "Project Management - Peminjaman Ruangan Kampus dan Zoom STT NF",
          "image_url": "",
          "description": ""
       },
       {
+         "id": "10",
          "nama_project": "Managemen SDM Berbasis IT",
          "image_url": "",
          "description": ""

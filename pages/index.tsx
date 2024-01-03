@@ -8,12 +8,22 @@ import ProjectCard from '@/components/card';
 
 const inter = Inter({ subsets: ['latin'] })
 
+type cardProps = {
+  map: Function;
+};
+
+type itemCardProps = {
+  projects: string;
+  id: string;
+}
+
 export default function Home() {
   const { t } = useTranslation('pages/index');
-
-  const myProjects: any = t('projects');
   
-  console.log(myProjects);
+  const myProjects = t<'projects', {returnObjects: true}, any>('projects', {returnObjects: true});
+  // .map(({projects}: itemCardProps) => {
+  //   console.log(projects);
+  // });
   return (
     <>
       <Header />
@@ -44,11 +54,14 @@ export default function Home() {
         </div>
       </div>
       {/* Projects */}
-      {/* <div className="h-screen">
-        {t('projects').map((projects, pi) => (
-          <ProjectCard key={`my-projects-${pi}`} {...projects} />
+      <div className="grid grid-cols-3 gap-4 px-8">
+        {myProjects.map((projects: itemCardProps) => (
+          <ProjectCard
+            key={`my-projects-${projects?.id}`}
+            {...projects}
+          />
         ))}
-      </div> */}
+      </div>
     </>
   )
 }
