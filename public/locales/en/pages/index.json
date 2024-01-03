@@ -6,63 +6,63 @@
    },
    "projects": [
       {
-         "id": "1",
+         "id": "10",
          "nama_project": "Fullstack Project - Glowthinc E-Commerce App",
-         "image_url": "",
+         "image_url": "/image/projects/10.png",
          "description": "Tugas kelompok final project superbootcamp sanbercode. Berikut link youtube untuk penjelasan projectnya."
       },
       {
-         "id": "2",
+         "id": "9",
          "nama_project": "Fullstack Project - Sportyan E-Commerce App",
-         "image_url": "",
+         "image_url": "/image/projects/9.png",
          "description": "Tugas individu project bulan kedua superbootcamp sanbercode. Membuat aplikasi e-commerce yang diberi nama sportyan menggunakan reactjs dan expressjs."
       },
       {
-         "id": "3",
+         "id": "8",
          "nama_project": "Frontend Project - Movie & Game App",
-         "image_url": "",
-         "description": ""
-      },
-      {
-         "id": "4",
-         "nama_project": "CRUD React JS",
-         "image_url": "",
-         "description": ""
-      },
-      {
-         "id": "5",
-         "nama_project": "Laravel Development",
-         "image_url": "",
-         "description": ""
-      },
-      {
-         "id": "6",
-         "nama_project": "Website Portofolio",
-         "image_url": "",
+         "image_url": "/image/projects/8.png",
          "description": ""
       },
       {
          "id": "7",
+         "nama_project": "CRUD React JS",
+         "image_url": "/image/projects/7.png",
+         "description": ""
+      },
+      {
+         "id": "6",
+         "nama_project": "Laravel Development",
+         "image_url": "/image/projects/6.png",
+         "description": ""
+      },
+      {
+         "id": "5",
+         "nama_project": "Website Portofolio",
+         "image_url": "/image/projects/5.png",
+         "description": ""
+      },
+      {
+         "id": "4",
          "nama_project": "Prototype Aplikasi - Edinsha",
-         "image_url": "",
+         "image_url": "/image/projects/4.png",
          "description": ""
       },
       {
-         "id": "8",
+         "id": "3",
          "nama_project": "UX Designer - MindRoom",
-         "image_url": "",
+         "image_url": "/image/projects/3.png",
          "description": ""
       },
       {
-         "id": "9",
+         "id": "2",
          "nama_project": "Project Management - Peminjaman Ruangan Kampus dan Zoom STT NF",
-         "image_url": "",
+         "image_url": "/image/projects/2.png",
          "description": ""
       },
       {
-         "id": "10",
+         "id": "1",
          "nama_project": "Managemen SDM Berbasis IT",
-         "image_url": "",
+         "image_url": "/image/projects/1.png",
          "description": ""
       }
    ]

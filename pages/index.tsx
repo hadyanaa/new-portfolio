@@ -55,9 +55,9 @@ export default function Home() {
       </div>
       {/* Projects */}
       <div className="grid grid-cols-3 gap-4 px-8">
-        {myProjects.map((projects: itemCardProps) => (
+        {myProjects.map((projects: object, id: string) => (
           <ProjectCard
-            key={`my-projects-${projects?.id}`}
+            key={`my-projects-${id}`}
             {...projects}
           />
         ))}
